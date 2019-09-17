@@ -1,0 +1,23 @@
+---
+title: Contact Me
+---
+<p> If you want to contact me then please use the contact email address below :-</p>
+{{< highlight bash >}}
+
+<Oops not just now please>
+
+{{< /highlight >}}
+<h3> Wait thats no email address?</h3>
+<p> Correct, Its my GPG public key, within that block of text my email is held, now you have three options, </p>
+<ol> <li> Import the Key </li> <li>Look for the fingerprint on a key server </li> <li> Give up as its too much effort</li> </ol>
+
+<h3> How do I import the key?</h3>
+{{<highlight bash>}}
+wget http://necurity.co.uk/gpg.key
+gpg --import gpg.key; gpg --list-keys; 
+{{< /highlight >}}
+<h3> How do I find it on a keyserver?</h4>
+<p><a href="http://pgp.mit.edu:11371/pks/lookup?search=necurity&op=index&fingerprint=on"> Check Here </a>Look for necurity.co.uk, and match the fingerprint.</p>
+<h3> Why so complicated?</h3>
+<p> The only reason I'm doing it this way is to stop spammers! Sorry for any inconvenience caused!</p>
+</div>  

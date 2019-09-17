@@ -1,0 +1,6 @@
+baseurl = "https://necurity.co.uk"
+languageCode = "en-gb"
+title = "Necurity"
+Author = "Alexander Innes (Senni)"
+pygmentsuseclasses = false
+pygmentsstyle = "igor"
